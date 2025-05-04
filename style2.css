@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 body {
-    background-color:  hsl(0, 0%, 98%);
+    background-color:  yellow;
 }
 nav{
 	height: 60px;
@@ -16,7 +16,7 @@ nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background: hsl(0, 0%, 98%);
+	background: yellow;
 	z-index: 2;
 }
 ul{
