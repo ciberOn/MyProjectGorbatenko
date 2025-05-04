@@ -127,9 +127,6 @@ table td {
 .card:hover{
 	background: hsl(0,0%,60%);
 }
-#balance::after{
-	content: ' KiberOne';
-}
 
 @media only screen and (max-width: 800px) {
  .cards{
