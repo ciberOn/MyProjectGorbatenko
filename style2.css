@@ -27,6 +27,11 @@ ul{
 ul li{
 	margin: 0 10px;
 }
+.License h2{
+	font-size: 1.6rem;
+}
+.License h3{
+	color: red,hsl(0,0%,50%);
 a{
 	text-decoration: none;
 	color: black;
@@ -35,11 +40,6 @@ a{
 a:hover{
 	color: hsl(0,0%,40%);
 }
-.License h2{
-	font-size: 1.6rem;
-}
-.License h3{
-	color: red,hsl(0,0%,50%);
 section{
 	height: 100vh;
 	position: relative;
