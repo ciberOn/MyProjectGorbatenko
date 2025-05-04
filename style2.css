@@ -35,6 +35,11 @@ a{
 a:hover{
 	color: hsl(0,0%,40%);
 }
+.License h2{
+	font-size: 1.6rem;
+}
+.License h3{
+	color: red,hsl(0,0%,50%);
 section{
 	height: 100vh;
 	position: relative;
@@ -127,11 +132,6 @@ table td {
 .card:hover{
 	background: hsl(0,0%,60%);
 }
-.License h2{
-	font-size: 1.6rem;
-}
-.License h3{
-	color: red,hsl(0,0%,50%);
 
 @media only screen and (max-width: 800px) {
  .cards{
