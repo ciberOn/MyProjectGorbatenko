@@ -49,7 +49,14 @@ body{
     color: black;
     transition: 650ms;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:black;
+    transition: 650ms;
+}
 .main{
     max-width: 1920px;
     width: 1010px;
@@ -61,14 +68,24 @@ body{
     margin-top: 40px;
     border-radius: 20px;
     padding:30px;
-    width: 400px;
+    width: 1000px;
+    height: 229px;
+    transform: translateY(-10%);
 }
 
 .contacts:nth-child(2){
-    transform: translateY(50%);
+    transform: translateY(-25%);
+}
+.skills{
+     border:2px solid white;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding:30px;
+    width: 1000px;
+    height: 220px;
+    transform: translateY(-40%);
 }
 
 .main__container{
-    display: flex;
     justify-content: space-between;
 }
